@@ -1,0 +1,109 @@
+:root{
+    --var:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    width:100%;
+    height:40px;
+    background-color: rgb(46, 5, 5);
+}
+.a-b-c{
+    position: absolute;
+    width:35%;
+    height:30px;
+    background-color: rgb(128, 97, 97);
+    top:5px;
+    left:5%;
+}
+.a-b-c-d{
+    left:0%;
+    top:0%;
+    width:8%;
+    height:100%;
+    position: absolute;
+    background-color: rgba(194, 84, 84,0);
+}
+.a-b-c-d img{
+    width:90%;
+}
+.a-b-c-d:hover{
+    background-color: rgba(46, 5, 5,0.2);
+  
+}
+.a-b-c-d img:hover{
+    animation-name: search-icon-anime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes search-icon-anime{
+    100%{
+        width:25px;
+        height:25px;
+        
+    }
+}
+.a-b-search{
+    position: absolute;
+  left:8%;
+    width:92%;
+    height:100%;
+}
+.a-b-search input{
+    width:100%;
+    height: 100%;
+    background-color: rgba(194, 84, 84,0);
+    border: none;
+}
+::placeholder { 
+    color: rgb(224, 217, 217);
+    opacity: 1; 
+  }
+.a-b-e{
+    position:absolute;
+    width:20%;
+    height:100%;
+    background-color: rgba(194, 84, 84,0);
+    left:42%
+}
+.a-b-e h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color:white;
+    padding-top: 3px;
+    
+}
+.a-b-e span img{
+    width:15px;
+    height: 15px;
+}
+.a-b-g{
+    margin-right: 10px;
+}
+
+.link-box{
+    width:10%;
+    height:100%;
+    /* background-color:  rgba(194, 84, 84,0); */
+    float:right;
+    /* margin: 0,5,0,5; */
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+  
+    padding-top: 3px;
+    color:white;
+   
+}
+.link-box:hover{
+    background-color: white;
+    color:black
+}
+/* .link-style{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+  
+    padding-top: 3px;
+    color:white;
+} */
