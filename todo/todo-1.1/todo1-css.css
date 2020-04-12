@@ -1,0 +1,59 @@
+*{
+    margin:0;
+}
+::placeholder{
+    color: rgb(168, 114, 168);
+    font-size: large;
+    text-align: center;
+}
+.mainDiv{
+    margin-top: 100px;
+    background-color: rgb(141, 40, 141);
+    text-align: center;
+    width:40%;
+    margin: auto;
+    border : 2px solid rgb(141, 40, 141);
+
+
+
+}
+h1{
+    color:rgb(219, 139, 219);
+    padding:20px
+}
+.main{
+    width:100%;
+    min-height:300px;
+    background-color: rgb(214, 108, 214);
+    margin:0;
+}
+.strike{
+    background-color: grey;
+    text-decoration: line-through;
+    color:rgb(58, 53, 53)
+    
+}
+.button{
+    height:30px;
+}
+.sameWidth{
+    width:33.333%;
+}
+#todoInput{
+    height: 40px;
+    /* border: 2px solid rgb(143, 10, 143); */
+}
+.mainDiv input{
+    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    line-height: normal;
+    
+
+
+}
+li{
+    margin: 4px 0px 4px 0px;
+    height:20px;
+}
